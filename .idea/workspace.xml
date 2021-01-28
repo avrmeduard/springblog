@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/websiteblog" />
+  </component>
+  <component name="ProjectId" id="1neh7BgxS7nL41aHo0fKxkrtfUS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.avrm.springblog.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringblogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avrm.springblog.SpringblogApplication" />
+      <module name="springblog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avrm.springblog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringblogApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="" />
+      <created>1611756293121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611756293121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="241" y="287" width="749" height="448" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1611825566610" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611774433303">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1611774433303" />
+    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1611779917650">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611779917650" />
+    <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="531" y="369" key="Github.CreateGistDialog/0.23.1440.877@0.23.1440.877" timestamp="1611831242337" />
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom" timestamp="1611779208362">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611779208362" />
+    <state width="1398" height="253" key="GridCell.Tab.0.center" timestamp="1611779208361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611779208361" />
+    <state width="1398" height="253" key="GridCell.Tab.0.left" timestamp="1611779208360">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611779208360" />
+    <state width="1398" height="253" key="GridCell.Tab.0.right" timestamp="1611779208361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611779208361" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1611760818473">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1611760818473">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1611760818472">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611760818472" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1611760818473">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
+    <state x="193" y="23" key="Maven.ArtifactSearchDialog" timestamp="1611773758941">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="193" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1611773758941" />
+    <state x="331" y="63" key="SettingsEditor" timestamp="1611779892963">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="331" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611779892963" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1611781321225">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611781321225" />
+    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611831196032">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1611831196032" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1611779859706">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1611779859706" />
+  </component>
+</project>
