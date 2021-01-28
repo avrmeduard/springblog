@@ -40,8 +40,12 @@ public class AuthService {
         userRepository.save(user);
     }
 
+    // we create a method to hash the password and save it to db
+    private String encodePassword(String password) {
+        return passwordEncoder.encode(password);
+    }
 
-    public void logIn(LoginRequest loginRequest) {
+    public String logIn(LoginRequest loginRequest) {
         // provide our user credentials by wrapping them up inside a class 'UsernamePasswordAuthenticationToken'
         // once the user pass this method we cand be sure is authenticated
         Authentication authenticate = authenticationManager.authenticate(
@@ -51,12 +55,9 @@ public class AuthService {
         SecurityContextHolder.getContext().setAuthentication(authenticate);
 
         // generate jwt token
-        jwtProvider.generateToken(authenticate);
+        return jwtProvider.generateToken(authenticate);
     }
 
-    // we create a method to hash the password and save it to db
-    private String encodePassword(String password) {
-        return passwordEncoder.encode(password);
-    }
+
 
 }
