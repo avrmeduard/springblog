@@ -13,6 +13,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class AuthService {
 
@@ -59,5 +61,14 @@ public class AuthService {
     }
 
 
+    public Optional<org.springframework.security.core.userdetails.User> getCurrentUser() {
 
+        // we retrieve the user from the security context,
+        // which is store the authenticate variable inside the context when we login
+        org.springframework.security.core.userdetails.User principal =
+                            (org.springframework.security.core.userdetails.User) SecurityContextHolder.getContext()
+                                                                                                    .getAuthentication()
+                                                                                                    .getPrincipal();
+        return Optional.of(principal);
+    }
 }
