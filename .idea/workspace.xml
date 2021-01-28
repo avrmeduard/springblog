@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="JwtProvider dependency injected and use it to generate token when sign up">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" afterDir="false" />
+    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="return string error missed type">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/security/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/security/JwtProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611855082627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="return type modified, it's return a generated token">
+      <created>1611855131775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611855131775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="return string error missed type">
+      <created>1611855201423</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611855201423</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +164,9 @@
     <MESSAGE value="pom.xml modified" />
     <MESSAGE value="+ libraries" />
     <MESSAGE value="return type modified. we return a string token" />
-    <option name="LAST_COMMIT_MESSAGE" value="return type modified. we return a string token" />
+    <MESSAGE value="return type modified, it's return a generated token" />
+    <MESSAGE value="return string error missed type" />
+    <option name="LAST_COMMIT_MESSAGE" value="return string error missed type" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
@@ -157,34 +177,34 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1611774433303" />
-    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1611779917650">
+    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1611858643533">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611779917650" />
-    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2" timestamp="1611855082503">
+    <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611858643533" />
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2" timestamp="1611857824470">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611855082503" />
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611857824470" />
     <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="531" y="369" key="Github.CreateGistDialog/0.23.1440.877@0.23.1440.877" timestamp="1611831242337" />
-    <state width="1398" height="96" key="GridCell.Tab.0.bottom" timestamp="1611854507532">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1611857499420">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="96" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611854507532" />
-    <state width="1398" height="96" key="GridCell.Tab.0.center" timestamp="1611854507531">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611857499420" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1611857499419">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="96" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611854507531" />
-    <state width="1398" height="96" key="GridCell.Tab.0.left" timestamp="1611854507531">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611857499419" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1611857499418">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="96" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611854507531" />
-    <state width="1398" height="96" key="GridCell.Tab.0.right" timestamp="1611854507532">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611857499418" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1611857499419">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="96" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611854507532" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611857499419" />
     <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1611854197631">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -205,18 +225,23 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="193" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1611773758941" />
+    <state x="452" y="138" key="RollbackChangesDialog" timestamp="1611857817157">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="452" y="138" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1611857817157" />
     <state x="331" y="63" key="SettingsEditor" timestamp="1611832183328">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="331" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611832183328" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1611847761874">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="500" height="457" key="SwitcherDM" timestamp="1611863778108">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="500" height="457" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1611863778108" />
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611847761873" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1611855087207">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1611857827137">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611855087207" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611857827137" />
     <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1611849997785">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -233,16 +258,5 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1611779859706" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

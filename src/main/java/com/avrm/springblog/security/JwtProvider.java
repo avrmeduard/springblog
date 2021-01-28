@@ -1,5 +1,6 @@
 package com.avrm.springblog.security;
 
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
@@ -31,5 +32,20 @@ public class JwtProvider {
                 .setSubject(principal.getUsername())
                 .signWith(key)
                 .compact();
+    }
+
+    public boolean validateToken(String jwt) {
+        // if the statement is execute whit any errors we can be sure is a valid token
+        Jwts.parser().setSigningKey(key).parseClaimsJws(jwt);
+        return true;
+    }
+
+    // we retrieve the body of the claim that we added
+    public String getUsernameFromJWT(String token) {
+        Claims claims = Jwts.parser()
+                            .setSigningKey(key)
+                            .parseClaimsJws(token)
+                            .getBody();
+        return claims.getSubject();
     }
 }
