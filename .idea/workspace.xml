@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="JwtProvider dependency injected and use it to generate token when sign up">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_10_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_10_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_10_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/springblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" afterDir="false" />
     </list>
@@ -27,8 +18,8 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1neh7BgxS7nL41aHo0fKxkrtfUS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -113,7 +104,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611834087879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified signature of the method, we are calling the bean super.authenticationManagerBean() which creates the AuthenticationManager bean.">
+      <created>1611854928566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854928566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pom.xml modified">
+      <created>1611854972639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854972639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+ libraries">
+      <created>1611854991084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854991084</updated>
+    </task>
+    <task id="LOCAL-00007" summary="return type modified. we return a string token">
+      <created>1611855082627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611855082627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,7 +142,11 @@
     <MESSAGE value="generate a key json token with a special algorithm HS512" />
     <MESSAGE value="JwtProvider dependency injected and use it to generate token when sign up" />
     <MESSAGE value="we create a single key JSON web token and reuse it" />
-    <option name="LAST_COMMIT_MESSAGE" value="we create a single key JSON web token and reuse it" />
+    <MESSAGE value="modified signature of the method, we are calling the bean super.authenticationManagerBean() which creates the AuthenticationManager bean." />
+    <MESSAGE value="pom.xml modified" />
+    <MESSAGE value="+ libraries" />
+    <MESSAGE value="return type modified. we return a string token" />
+    <option name="LAST_COMMIT_MESSAGE" value="return type modified. we return a string token" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
@@ -138,10 +161,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611779917650" />
-    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2" timestamp="1611834087711">
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2" timestamp="1611855082503">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611834087711" />
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611855082503" />
     <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -190,10 +213,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611847761873" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1611834091848">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1611855087207">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611834091848" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611855087207" />
     <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1611849997785">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
