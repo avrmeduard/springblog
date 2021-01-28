@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="" />
+    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="JwtProvider dependency injected and use it to generate token when sign up">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_10_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springblog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/UserDetailsServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +27,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/websiteblog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1neh7BgxS7nL41aHo0fKxkrtfUS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,11 +49,12 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -78,7 +92,38 @@
       <option name="presentableId" value="Default" />
       <updated>1611756293121</updated>
     </task>
+    <task id="LOCAL-00001" summary="generate a key json token with a special algorithm HS512">
+      <created>1611833041847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611833041847</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JwtProvider dependency injected and use it to generate token when sign up">
+      <created>1611833122041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611833122041</updated>
+    </task>
+    <task id="LOCAL-00003" summary="we create a single key JSON web token and reuse it">
+      <created>1611834087879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611834087879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/websiteblog" />
+    </ignored-roots>
+    <MESSAGE value="generate a key json token with a special algorithm HS512" />
+    <MESSAGE value="JwtProvider dependency injected and use it to generate token when sign up" />
+    <MESSAGE value="we create a single key JSON web token and reuse it" />
+    <option name="LAST_COMMIT_MESSAGE" value="we create a single key JSON web token and reuse it" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
@@ -93,61 +138,88 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611779917650" />
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2" timestamp="1611834087711">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611834087711" />
     <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="531" y="369" key="Github.CreateGistDialog/0.23.1440.877@0.23.1440.877" timestamp="1611831242337" />
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom" timestamp="1611779208362">
+    <state width="1398" height="96" key="GridCell.Tab.0.bottom" timestamp="1611854507532">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611779208362" />
-    <state width="1398" height="253" key="GridCell.Tab.0.center" timestamp="1611779208361">
+    <state width="1398" height="96" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611854507532" />
+    <state width="1398" height="96" key="GridCell.Tab.0.center" timestamp="1611854507531">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611779208361" />
-    <state width="1398" height="253" key="GridCell.Tab.0.left" timestamp="1611779208360">
+    <state width="1398" height="96" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611854507531" />
+    <state width="1398" height="96" key="GridCell.Tab.0.left" timestamp="1611854507531">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611779208360" />
-    <state width="1398" height="253" key="GridCell.Tab.0.right" timestamp="1611779208361">
+    <state width="1398" height="96" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611854507531" />
+    <state width="1398" height="96" key="GridCell.Tab.0.right" timestamp="1611854507532">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611779208361" />
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1611760818473">
+    <state width="1398" height="96" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611854507532" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1611854197631">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
-    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1611760818473">
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611854197631" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1611854197630">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
-    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1611760818472">
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611854197630" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1611854197629">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611760818472" />
-    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1611760818473">
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611854197629" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1611854197630">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611760818473" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611854197630" />
     <state x="193" y="23" key="Maven.ArtifactSearchDialog" timestamp="1611773758941">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="193" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1611773758941" />
-    <state x="331" y="63" key="SettingsEditor" timestamp="1611779892963">
+    <state x="331" y="63" key="SettingsEditor" timestamp="1611832183328">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="331" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611779892963" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1611781321225">
+    <state x="331" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611832183328" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1611847761874">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611781321225" />
-    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611831196032">
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611847761873" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1611834091848">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1611831196032" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611834091848" />
+    <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1611849997785">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="720" height="438" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1611849997785" />
+    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611847182555">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="511" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1611847182555" />
+    <state x="283" y="197" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1611850593971">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="283" y="197" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877@0.23.1440.877" timestamp="1611850593971" />
     <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1611779859706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1611779859706" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/AuthController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
