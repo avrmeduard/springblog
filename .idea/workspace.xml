@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/repository/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -197,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611865028562</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="we retrieve the user from the security context">
+      <created>1611866692713</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611866692713</updated>
+    </task>
+    <task id="LOCAL-00018" summary="post object created">
+      <created>1611866756244</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611866756244</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,7 +233,9 @@
     <MESSAGE value="+ end point to test the web token validation" />
     <MESSAGE value="+ changes" />
     <MESSAGE value="Dto Post added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dto Post added" />
+    <MESSAGE value="we retrieve the user from the security context" />
+    <MESSAGE value="post object created" />
+    <option name="LAST_COMMIT_MESSAGE" value="post object created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
@@ -235,10 +250,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611858643533" />
-    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2" timestamp="1611865028430">
+    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2" timestamp="1611866756121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611865028430" />
+    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611866756121" />
     <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611857824470" />
     <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
       <screen x="0" y="23" width="1440" height="877" />
@@ -293,10 +308,10 @@
     </state>
     <state width="500" height="457" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1611863778108" />
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611847761873" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611865031087">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611866759874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611865031087" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611866759874" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611857827137" />
     <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1611849997785">
       <screen x="0" y="23" width="1440" height="877" />
