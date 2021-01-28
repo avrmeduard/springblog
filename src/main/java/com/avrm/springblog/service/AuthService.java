@@ -4,6 +4,7 @@ import com.avrm.springblog.dto.LoginRequest;
 import com.avrm.springblog.dto.RegisterRequest;
 import com.avrm.springblog.model.User;
 import com.avrm.springblog.repository.UserRepository;
+import com.avrm.springblog.security.JwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -27,6 +28,9 @@ public class AuthService {
     @Autowired
     private AuthenticationManager authenticationManager;
 
+    @Autowired
+    private JwtProvider jwtProvider;
+
     public void signUp(RegisterRequest registerRequest) {
         User user = new User();
         user.setUsername(registerRequest.getUsername());
@@ -43,8 +47,11 @@ public class AuthService {
         Authentication authenticate = authenticationManager.authenticate(
                         new UsernamePasswordAuthenticationToken(loginRequest.getUsername(),loginRequest.getPassword()));
 
-        // whit that we implemented the authentication process
+        // with that we implemented the authentication process
         SecurityContextHolder.getContext().setAuthentication(authenticate);
+
+        // generate jwt token
+        jwtProvider.generateToken(authenticate);
     }
 
     // we create a method to hash the password and save it to db
