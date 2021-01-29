@@ -16,6 +16,10 @@ public class PostController {
     @Autowired
     private PostService postService;
 
-
+    @PostMapping
+    public ResponseEntity createPost(@RequestBody PostDto postDto) {
+        postService.createPost(postDto);
+        return new ResponseEntity(HttpStatus.OK);
+    }
 
 }
