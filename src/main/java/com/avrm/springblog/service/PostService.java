@@ -54,4 +54,9 @@ public class PostService {
         return posts.stream().map(this::mapFromPostToDto).collect(toList());
     }
 
+    public PostDto readSinglePostById(Long id) {
+        Post post = postRepository.findById(id).orElseThrow(() -> new PostNotFoundException("For id : " + id));
+        return mapFromPostToDto(post);
+    }
+
 }
