@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/repository/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/controller/PostController.java" afterDir="false" />
+    <list default="true" id="74e97a4c-8325-4122-aeb1-b9ff516c756a" name="Default Changelist" comment="method added for creating a post">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/exception/PostNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avrm/springblog/service/PostService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.avrm.springblog.exception" />
       <recent name="com.avrm.springblog.dto" />
     </key>
   </component>
@@ -210,7 +212,56 @@
       <option name="project" value="LOCAL" />
       <updated>1611866756244</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="PostRepository created">
+      <created>1611866944613</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611866944613</updated>
+    </task>
+    <task id="LOCAL-00020" summary="save the post to database">
+      <created>1611866962270</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611866962270</updated>
+    </task>
+    <task id="LOCAL-00021" summary="save the post to database">
+      <created>1611866965355</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611866965355</updated>
+    </task>
+    <task id="LOCAL-00022" summary="post controller endpoint class added">
+      <created>1611907795486</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907795486</updated>
+    </task>
+    <task id="LOCAL-00023" summary="method added for creating a post">
+      <created>1611907919553</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907919553</updated>
+    </task>
+    <task id="LOCAL-00024" summary="get all posts">
+      <created>1611907973385</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907973385</updated>
+    </task>
+    <task id="LOCAL-00025" summary="get post by id">
+      <created>1611907996018</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907996018</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,7 +286,13 @@
     <MESSAGE value="Dto Post added" />
     <MESSAGE value="we retrieve the user from the security context" />
     <MESSAGE value="post object created" />
-    <option name="LAST_COMMIT_MESSAGE" value="post object created" />
+    <MESSAGE value="PostRepository created" />
+    <MESSAGE value="save the post to database" />
+    <MESSAGE value="post controller endpoint class added" />
+    <MESSAGE value="method added for creating a post" />
+    <MESSAGE value="get all posts" />
+    <MESSAGE value="get post by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="get post by id" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="287" width="749" height="448" key="#Notifications" timestamp="1611825566610">
@@ -250,47 +307,55 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1611858643533" />
-    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2" timestamp="1611866756121">
+    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2" timestamp="1611908195558">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611866756121" />
+    <state x="73" y="45" width="1242" height="811" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611908195558" />
     <state x="122" y="23" width="1057" height="811" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1611857824470" />
     <state x="531" y="369" key="Github.CreateGistDialog" timestamp="1611831242337">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="531" y="369" key="Github.CreateGistDialog/0.23.1440.877@0.23.1440.877" timestamp="1611831242337" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1611857499420">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.0.bottom" timestamp="1611871683026">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="479" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611871683026" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611857499420" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1611857499419">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.0.center" timestamp="1611871683025">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="479" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611871683025" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1611857499419" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1611857499418">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.0.left" timestamp="1611871683024">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="479" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611871683024" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1611857499418" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1611857499419">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.0.right" timestamp="1611871683025">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="479" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611871683025" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1611857499419" />
-    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1611854197631">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.1.bottom" timestamp="1611871683028">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611854197631" />
-    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1611854197630">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611871683028" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1611870800110" />
+    <state width="1398" height="479" key="GridCell.Tab.1.center" timestamp="1611871683027">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611854197630" />
-    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1611854197629">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1611871683027" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1611870800108" />
+    <state width="1398" height="479" key="GridCell.Tab.1.left" timestamp="1611871683026">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611854197629" />
-    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1611854197630">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="479" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1611871683026" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1611870800107" />
+    <state width="1398" height="479" key="GridCell.Tab.1.right" timestamp="1611871683027">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611854197630" />
+    <state width="1398" height="479" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1611871683027" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1611870800109" />
     <state x="193" y="23" key="Maven.ArtifactSearchDialog" timestamp="1611773758941">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -303,15 +368,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="331" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1611832183328" />
-    <state width="500" height="457" key="SwitcherDM" timestamp="1611863778108">
+    <state width="500" height="457" key="SwitcherDM" timestamp="1611866875677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="500" height="457" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1611863778108" />
+    <state width="500" height="457" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1611866875677" />
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1611847761873" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611866759874">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611908010016">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611866759874" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611908010016" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1611857827137" />
     <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1611849997785">
       <screen x="0" y="23" width="1440" height="877" />
@@ -325,6 +390,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="283" y="197" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877@0.23.1440.877" timestamp="1611850593971" />
+    <state x="114" y="72" key="new project wizard" timestamp="1611907551841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1611907551841" />
     <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1611779859706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
