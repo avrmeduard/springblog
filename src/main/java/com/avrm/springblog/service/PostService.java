@@ -40,4 +40,18 @@ public class PostService {
         postRepository.save(post);
     }
 
+    public PostDto mapFromPostToDto(Post post){
+        PostDto postDto = new PostDto();
+        postDto.setId(post.getId());
+        postDto.setTitle(post.getTitle());
+        postDto.setContent(post.getContent());
+        postDto.setUsername(post.getUsername());
+        return postDto;
+    }
+
+    public List<PostDto> showAllPosts() {
+        List<Post> posts = postRepository.findAll();
+        return posts.stream().map(this::mapFromPostToDto).collect(toList());
+    }
+
 }
