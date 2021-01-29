@@ -27,4 +27,8 @@ public class PostController {
         return new ResponseEntity<>(postService.showAllPosts(), HttpStatus.OK);
     }
 
+    @GetMapping("/get/{id}")
+    public ResponseEntity<PostDto> getSinglePost(@PathVariable @RequestBody Long id) {
+        return new ResponseEntity<>(postService.readSinglePostById(id), HttpStatus.OK);
+    }
 }
